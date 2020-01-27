@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import AboutMe from "./Components/AboutMe/AboutMe";
+import MySkills from "./Components/MySkills/MySkills";
+import MyWorks from "./Components/MyWorks/MyWorks";
+import Distance from "./Components/Distance/Distance";
+import Contacts from "./Components/Contacts/Contacts";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import Slogan from "./Components/Slogan/Slogan";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={styles.App}>
+            <div className="portfolio">
+                <Header />
+                <AboutMe />
+                <MySkills />
+                <MyWorks />
+                <Slogan />
+{/*                <Distance />  Удаленный вариант работы*/}
+                <Contacts />
+                <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;

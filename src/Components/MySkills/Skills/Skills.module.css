@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.middleContainer {
+    border: 1px solid green;
+}
+
+.mySkillsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    font-size: 24px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    border: 1px solid;
+}
+
+.skillImg {
+    height: 100px;
+    width: 100px;
+   background: black;
+}
+
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

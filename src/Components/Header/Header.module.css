@@ -1,0 +1,14 @@
+.header {
+    height: 10vh;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

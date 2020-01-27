@@ -1,0 +1,27 @@
+.aboutMe {
+    height: 90vh;
+    background: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.greeting {
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    border: 1px solid;
+    width: 30vh;
+    height: 400px;
+    background: blue;
+}
