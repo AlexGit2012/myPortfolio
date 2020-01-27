@@ -1,4 +1,31 @@
 .aboutMe {
-    height: 60px;
+    height: 100px;
     background: sienna;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.socialRefBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+}
+
+.socialRefElement {
+    height: 40px;
+    width: 40px;
+    background: #b3caff;
 }

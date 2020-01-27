@@ -1,4 +1,11 @@
 .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 250px;
     background: darksalmon;
+}
+
+.hireMeSlogan {
+    font-size: 20px;
 }

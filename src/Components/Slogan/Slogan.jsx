@@ -3,7 +3,7 @@ import styles from "./Slogan.module.css";
 
 const Slogan = () => {
     return <div className={styles.slogan} >
-        Slogan Block
+        <div className={styles.hireMeSlogan}>Рассматриваю варианты удаленной работы</div>
     </div>
 }
 
