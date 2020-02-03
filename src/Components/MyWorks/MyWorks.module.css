@@ -1,10 +1,10 @@
 .myWorks {
-    height: 100vh;
     background: #b3caff;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .myWorksHeader {
@@ -21,10 +21,14 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
 .myWorkElement {
-
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
 }
 
 .workDescription {
@@ -34,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 20%;
 }
 
 .workDescriptionElement {
@@ -46,14 +51,33 @@
 }
 
 .workDescriptionText {
-    width: 300px;
-    heigth:200px;
     border: blue 1px solid;
     font-size: 18px;
 }
 
 .workImg {
-    height: 400px;
-    width: 500px;
-    background: brown;
+    height: 80%;
+    width: 100%;
+    background: indianred;
+}
+
+@media screen and (max-width: 1255px) {
+
+    .myWorksHeader {
+        height: 20vh;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .myWorkElement {
+        height: 80vh;
+        padding-bottom: 20vh;
+    }
+
+    .myWorks {
+        height: auto;
+    }
 }

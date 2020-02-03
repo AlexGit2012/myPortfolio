@@ -12,15 +12,15 @@ import Slogan from "./Components/Slogan/Slogan";
 function App() {
     return (
         <div className={styles.App}>
-            <div className="portfolio">
+            <div className={styles.App_portfolio}>
                 <Header />
                 <AboutMe />
                 <MySkills />
                 <MyWorks />
-                <Slogan />
-{/*                <Distance />  Удаленный вариант работы*/}
+{/*                <Slogan />
+                <Distance />  Удаленный вариант работы
                 <Contacts />
-                <Footer />
+                <Footer />*/}
             </div>
         </div>
     );

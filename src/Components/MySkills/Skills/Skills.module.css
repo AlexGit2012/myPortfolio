@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100vh; /*При увеличении числа элементов возможно понадобится поменять*/
 }
 
 .middleContainer {
@@ -23,7 +23,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: white;
     flex-wrap: wrap;
 }
 
@@ -33,6 +32,7 @@
     align-items: flex-start;
     width: 300px;
     border: 1px solid;
+    background: white;
 }
 
 .skillImg {
@@ -46,4 +46,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1150px){
+    .elements {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container {
+        justify-content: flex-start;
+        height: 100%;
+    }
 }
