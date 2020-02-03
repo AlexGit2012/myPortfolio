@@ -17,10 +17,10 @@ function App() {
                 <AboutMe />
                 <MySkills />
                 <MyWorks />
-{/*                <Slogan />
-                <Distance />  Удаленный вариант работы
+                <Slogan />
+{/*                <Distance />  Удаленный вариант работы*/}
                 <Contacts />
-                <Footer />*/}
+                <Footer />
             </div>
         </div>
     );
