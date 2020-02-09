@@ -18,7 +18,7 @@ function App() {
                 <MySkills />
                 <MyWorks />
                 <Slogan />
-{/*                <Distance />  Удаленный вариант работы*/}
+{/*                <Distance />  Удаленный вариант работы, , более подробно*/}
                 <Contacts />
                 <Footer />
             </div>

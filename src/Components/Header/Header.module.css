@@ -1,12 +1,13 @@
 .header {
     height: 10vh;
-    background: skyblue;
+    background: white;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 
 .container {
-    border: 1px solid black;
     width: 80%;
     display: flex;
     justify-content: flex-end;
