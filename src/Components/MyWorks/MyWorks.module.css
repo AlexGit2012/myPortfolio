@@ -26,14 +26,14 @@
 }
 
 .myWorkElement {
-    width: 500px;
-    height: 400px;
+    width: 35vw;
+    height: 35vw;
     border: 1px solid black;
 }
 
 .workDescription {
     background: aliceblue;
-    width: 500px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +73,20 @@
         height: auto;
     }
     .myWorkElement {
-        height: 80vh;
+        width: 50vw;
+        height: 50vw;
         padding-bottom: 20vh;
     }
 
     .myWorks {
         height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myWorkElement {
+        width: 250px;
+        height: 250px;
+        padding-bottom: 20vh;
     }
 }

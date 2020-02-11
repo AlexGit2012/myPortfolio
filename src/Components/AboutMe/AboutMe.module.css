@@ -17,12 +17,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid white;
 }
 
 .greeting {
     background: #1f1f20;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .greeting span:nth-child(1) {
@@ -66,20 +68,62 @@ h1 {
         align-items: center;
         margin-top: 10vh;
     }
+
     .aboutMe {
         height: auto;
     }
+
     .greeting {
         height: 90vh;
+        width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 1px solid black;
     }
+
     .photoWrapper {
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .greeting span:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .greeting span:nth-child(2) {
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: 30px;
+        line-height: 1.2;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .greeting span:nth-child(3) {
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: 30px;
+        line-height: 1.2;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .greeting h1:nth-child(4) {
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: 30px;
+        line-height: 1.2;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 5px;
+    }
+    .photo {
+        border: 1px solid;
+        width: 250px;
+        height: 300px;
+        background: white;
     }
 }
 

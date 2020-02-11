@@ -9,3 +9,9 @@
 .hireMeSlogan {
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+    .hireMeSlogan {
+        font-size: 13px;
+    }
+}
