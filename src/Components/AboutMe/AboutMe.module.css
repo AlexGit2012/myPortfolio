@@ -28,29 +28,41 @@
 }
 
 .greeting span:nth-child(1) {
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.greeting span:nth-child(2) {
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span{
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    width: 285px;
+    right:0px;
+    height: 20px;
+    background-color: #ea548d;
+    bottom: 0px;
+    z-index: -1;
+}
+
+
+.greeting span:nth-child(4) {
     font-weight: 700;
     font-stretch: normal;
     font-size: 48px;
     line-height: 1.2;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 5px;
-}
-
-.greeting span:nth-child(3) {
-    font-weight: 700;
-    font-stretch: normal;
-    font-size: 48px;
-    line-height: 1.2;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 5px;
-}
-
-h1 {
-
+    background-color: #d1ffd3;
 }
 
 .photo {
@@ -58,9 +70,46 @@ h1 {
     width: 300px;
     height: 400px;
     background: white;
+    position: relative;
+    z-index: 1;
 }
 
-@media screen and (max-width: 950px) {
+.image {
+    height: 400px;
+    width: 300px;
+    background-color: #d1ffd3;
+    z-index: 2;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+    background-color: #ea548d;
+    z-index:11;
+}
+
+.photo .image:before {
+    content: "";
+    position: absolute;
+    height: 440px;
+    width: 300px;
+    border: 5px solid #ea548d;
+    left: 10px;
+    top: -20px;
+    z-index: -1;
+}
+
+/*.photo:before {
+    content: "";
+    position: absolute;
+    height: 440px;
+    width: 300px;
+    border: 5px solid #ea548d;
+    left: 10px;
+    top: -20px;
+}*/
+
+@media screen and (max-width: 1070px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -93,7 +142,8 @@ h1 {
         font-size: 16px;
     }
 
-    .greeting span:nth-child(2) {
+    .greeting span:nth-child(2),
+    greeting span:nth-child(2) span{
         font-weight: 700;
         font-stretch: normal;
         font-size: 30px;
@@ -121,9 +171,53 @@ h1 {
     }
     .photo {
         border: 1px solid;
-        width: 250px;
-        height: 300px;
+        height: 400px;
+        width: 300px;
         background: white;
+    }
+
+    .image {
+        height: 400px;
+        width: 300px;
+        background-color: #d1ffd3;
+    }
+
+    .photo .image:before {
+        content: "";
+        position: absolute;
+        height: 440px;
+        width: 300px;
+        border: 5px solid #ea548d;
+        left: 10px;
+        top: -25px;
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .photo {
+        border: 1px solid;
+        height: 300px;
+        width: 200px;
+        background: white;
+    }
+
+    .image {
+        height: 300px;
+        width: 200px;
+        background-color: #d1ffd3;
+    }
+
+    .photo .image:before {
+        content: "";
+        position: absolute;
+        height: 320px;
+        width: 200px;
+        border: 5px solid #ea548d;
+        left: 10px;
+        top: -15px;
+        z-index: -1;
     }
 }
 
