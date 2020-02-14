@@ -11,9 +11,7 @@ const AboutMe = () => {
             </div>
             <div className={styles.photoWrapper}>
                 <div className={styles.photo}>
-                    <div className={styles.image}>
-                        <img src="../../../public/Photo/photo.png" alt=""/>
-                    </div>
+                    <div className={styles.image}/>
                 </div>
             </div>
         </div>

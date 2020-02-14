@@ -17,7 +17,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid white;
 }
 
 .greeting {
@@ -66,36 +65,31 @@
 }
 
 .photo {
-    border: 1px solid;
-    width: 300px;
-    height: 400px;
+    width: 261px;
+    height: 299px;
     background: white;
     position: relative;
     z-index: 1;
 }
 
 .image {
-    height: 400px;
-    width: 300px;
-    background-color: #d1ffd3;
+    height: 299px;
+    width: 261px;
+/*    background-color: #d1ffd3;*/
+/*    background-image: url("./public/Photo/photo.png");*/
+    background: url("assets/Photo/photo.png");
     z-index: 2;
 }
 
-.image img {
-    height: 100px;
-    width: 100px;
-    background-color: #ea548d;
-    z-index:11;
-}
 
 .photo .image:before {
     content: "";
     position: absolute;
-    height: 440px;
-    width: 300px;
+    height: 319px;
+    width: 261px;
     border: 5px solid #ea548d;
     left: 10px;
-    top: -20px;
+    top: -15px;
     z-index: -1;
 }
 
@@ -197,23 +191,22 @@
 
 @media screen and (max-width: 400px) {
     .photo {
-        border: 1px solid;
-        height: 300px;
-        width: 200px;
+        height: 225px;
+        width: 196px;
         background: white;
     }
 
     .image {
-        height: 300px;
-        width: 200px;
-        background-color: #d1ffd3;
+        height: 225px;
+        width: 196px;
+        background: url("assets/Photo/photo_small.png");
     }
 
     .photo .image:before {
         content: "";
         position: absolute;
-        height: 320px;
-        width: 200px;
+        height: 245px;
+        width: 196px;
         border: 5px solid #ea548d;
         left: 10px;
         top: -15px;

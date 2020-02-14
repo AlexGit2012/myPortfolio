@@ -1,42 +1,18 @@
 import React from "react";
 import styles from "./Skills.module.css";
+import {HeaderOfBlock} from "../../Other/HeaderOfBlock/HeaderOfBlock";
+import {Skill} from "./Skill/Skill";
 
 const Skills = () => {
     return (
         <div className={styles.container}>
+            <HeaderOfBlock headerText={"Мои навыки"}/>
             <div className={styles.middleContainer}>
-                <div className={styles.mySkillsHeader}>Мои навыки</div>
                 <div className={styles.elements}>
-                    <div className={styles.element}>
-                        <div className={styles.skillContainer}>
-                            <div className={styles.skillImg}></div>
-                            <br/>
-                            React JS
-                            <br/>
-                            <br/>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio.</span>
-                        </div>
-                    </div>
-                    <div className={styles.element}>
-                        <div className={styles.skillContainer}>
-                            <div className={styles.skillImg}></div>
-                            <br/>
-                            HTML & CSS
-                            <br/>
-                            <br/>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio.</span>
-                        </div>
-                    </div>
-                    <div className={styles.element}>
-                        <div className={styles.skillContainer}>
-                            <div className={styles.skillImg}></div>
-                            <br/>
-                            JavaScript
-                            <br/>
-                            <br/>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio.</span>
-                        </div>
-                    </div>
+                    <Skill skillName={"React JS"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
+                    <Skill skillName={"HTML & CSS"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
+                    <Skill skillName={"JavaScript"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
+
                 </div>
             </div>
 
