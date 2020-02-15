@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./MyWorks.module.css";
+import {HeaderOfBlock} from "../Other/HeaderOfBlock/HeaderOfBlock";
 
 const MyWorks = () => {
     return <div className={styles.myWorks} >
-        <div className={styles.myWorksHeader}>Мои работы</div>
+        <HeaderOfBlock headerText={"Мои работы"} />
         <div className={styles.container}>
             <div className={styles.myWorkElement}>
                 <div className={styles.workImg}></div>

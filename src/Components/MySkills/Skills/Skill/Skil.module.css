@@ -5,6 +5,7 @@
     width: 300px;
     height: 300px;
     background: #252525;
+    margin-bottom: 20vh;
 }
 
 .skillImg {
@@ -22,4 +23,16 @@
 
 .skillContainer span {
     text-align: justify;
+}
+
+@media screen and (max-width: 1150px) {
+    .element {
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .element {
+        width: 200px;
+    }
 }

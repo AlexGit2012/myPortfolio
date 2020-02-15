@@ -2,8 +2,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh; /*При увеличении числа элементов возможно понадобится поменять*/
+    justify-content: flex-start;
 }
 
 .middleContainer {
@@ -26,18 +25,13 @@
         justify-content: space-around;
     }
 
-    .element {
-        margin: 20px 0px;
+    .middleContainer {
+        align-items: center;
     }
+
 
     .container {
         justify-content: flex-start;
         height: 100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .element {
-        width: 200px;
     }
 }

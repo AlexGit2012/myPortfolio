@@ -12,7 +12,6 @@ const Skills = () => {
                     <Skill skillName={"React JS"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
                     <Skill skillName={"HTML & CSS"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
                     <Skill skillName={"JavaScript"} skillDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus. Sed arcu metus, scelerisque at nisi eget, hendrerit commodo odio."}/>
-
                 </div>
             </div>
 
