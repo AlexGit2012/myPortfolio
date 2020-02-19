@@ -34,6 +34,23 @@
     text-align: justify;
 }
 
+.skillContainer h3 {
+    text-transform: uppercase;
+    margin:0 0 15px;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+span h3 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
 @media screen and (max-width: 1150px) {
     .element {
         margin: 20px 0px;
