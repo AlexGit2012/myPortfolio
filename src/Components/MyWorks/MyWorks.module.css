@@ -60,32 +60,3 @@
     background: indianred;
 }
 
-@media screen and (max-width: 1255px) {
-
-    .myWorksHeader {
-        height: 20vh;
-    }
-
-    .container {
-        flex-direction: column;
-        justify-content: flex-start;
-        height: auto;
-    }
-    .myWorkElement {
-        width: 50vw;
-        height: 50vw;
-        padding-bottom: 20vh;
-    }
-
-    .myWorks {
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .myWorkElement {
-        width: 250px;
-        height: 250px;
-        padding-bottom: 20vh;
-    }
-}

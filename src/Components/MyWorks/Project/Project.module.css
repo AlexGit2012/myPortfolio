@@ -1,0 +1,73 @@
+.myWorkElement {
+    width: 35vw;
+    height: 35vw;
+    border: 1px solid black;
+    color: black;
+}
+
+.workImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background: indianred;
+}
+
+.myWorkButton {
+    width: 120px;
+    height: 50px;
+}
+
+.workDescription {
+    background: aliceblue;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+}
+
+.workDescriptionElement {
+    display: flex;
+    flex-direction: column;
+}
+
+.workDescriptionName {
+
+}
+
+.workDescriptionText {
+    border: blue 1px solid;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1255px) {
+
+    .myWorksHeader {
+        height: 20vh;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .myWorkElement {
+        width: 50vw;
+        height: 50vw;
+        padding-bottom: 20vh;
+    }
+
+    .myWorks {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myWorkElement {
+        width: 250px;
+        height: 250px;
+        padding-bottom: 20vh;
+    }
+}
