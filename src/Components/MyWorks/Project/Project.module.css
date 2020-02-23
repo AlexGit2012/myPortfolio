@@ -1,8 +1,8 @@
 .myWorkElement {
     width: 35vw;
     height: 35vw;
-    border: 1px solid black;
-    color: black;
+    background: #252525;
+    margin-bottom: 50px;
 }
 
 .workImg {
@@ -11,16 +11,16 @@
     align-items: center;
     height: 80%;
     width: 100%;
-    background: indianred;
+    background-image: url(../../../../src/assets/images/Social_network.png);
 }
 
 .myWorkButton {
     width: 120px;
     height: 50px;
+    margin: 0 10px;
 }
 
 .workDescription {
-    background: aliceblue;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -33,34 +33,25 @@
     flex-direction: column;
 }
 
+.workDescriptionElement:first-child {
+    align-items: center;
+}
+
 .workDescriptionName {
 
 }
 
 .workDescriptionText {
-    border: blue 1px solid;
     font-size: 18px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1255px) {
 
-    .myWorksHeader {
-        height: 20vh;
-    }
-
-    .container {
-        flex-direction: column;
-        justify-content: flex-start;
-        height: auto;
-    }
     .myWorkElement {
         width: 50vw;
         height: 50vw;
         padding-bottom: 20vh;
-    }
-
-    .myWorks {
-        height: auto;
     }
 }
 
