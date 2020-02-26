@@ -9,8 +9,8 @@ export const Project = (props) => {
         </div>
         <div className={styles.workDescription}>
             <div className={styles.workDescriptionElement}>
-                <div className={styles.workDescriptionName}>Название проекта</div>
-                <div className={styles.workDescriptionText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lacinia purus.</div>
+                <div className={styles.workDescriptionName}>{props.projectName}</div>
+                <div className={styles.workDescriptionText}>{props.projectDescription}</div>
             </div>
         </div>
     </div>

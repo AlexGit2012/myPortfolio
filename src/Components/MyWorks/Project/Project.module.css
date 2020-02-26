@@ -1,18 +1,33 @@
 .myWorkElement {
     width: 35vw;
-    height: 35vw;
     background: #252525;
     margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
 }
 
 .workImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
-    width: 100%;
+    height: 40vh;
+    width: 35vw;
+    background-size: cover;
+    background-padding: center;
     background-image: url(../../../../src/assets/images/Social_network.png);
 }
+
+/*.workImg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: red;
+}*/
 
 .myWorkButton {
     width: 120px;
@@ -25,7 +40,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20%;
 }
 
 .workDescriptionElement {
@@ -38,27 +52,37 @@
 }
 
 .workDescriptionName {
-
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .workDescriptionText {
     font-size: 18px;
     text-align: justify;
+    margin: 10px 10px;
 }
 
 @media screen and (max-width: 1255px) {
 
     .myWorkElement {
         width: 50vw;
-        height: 50vw;
-        padding-bottom: 20vh;
+    }
+
+    .workImg {
+        width: 50vw;
     }
 }
 
 @media screen and (max-width: 600px) {
     .myWorkElement {
         width: 250px;
-        height: 250px;
-        padding-bottom: 20vh;
+    }
+
+    .workImg {
+        width: 250px;
     }
 }
