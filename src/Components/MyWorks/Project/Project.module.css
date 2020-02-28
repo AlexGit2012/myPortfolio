@@ -19,20 +19,22 @@
     background-image: url(../../../../src/assets/images/Social_network.png);
 }
 
-/*.workImg:before {
+.workImg:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 50%;
-    background: red;
-}*/
+    height: 40vh;
+    background: black;
+    opacity: 0.4;
+}
 
 .myWorkButton {
     width: 120px;
     height: 50px;
     margin: 0 10px;
+    position: relative;
 }
 
 .workDescription {

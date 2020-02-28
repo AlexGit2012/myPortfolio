@@ -24,11 +24,7 @@
     height: 50px;
 }
 
-.socialRefElement {
-    height: 40px;
-    width: 40px;
-    background: #b3caff;
-}
+
 
 @media screen and (max-width: 1250px) {
     .socialRefBar {
