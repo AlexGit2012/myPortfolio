@@ -1,3 +1,6 @@
+.headerElement {
+}
+
 .myHeader {
     display: flex;
     justify-content: center;
@@ -8,7 +11,7 @@
 }
 
 .decorationLineWrapper {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -18,4 +21,10 @@
     height: 1px;
     width: 55px;
     background: #ea548d;
+}
+
+@media screen and (max-width: 400px) {
+    .myHeader {
+        font-size: 22px;
+    }
 }
