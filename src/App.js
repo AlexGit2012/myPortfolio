@@ -8,11 +8,26 @@ import Contacts from "./Components/Contacts/Contacts";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Slogan from "./Components/Slogan/Slogan";
+import Particles from 'react-particles-js';
 
 function App() {
+
+    const particlesOpt = {
+        particles: {
+            number: {
+                value: 150,
+                density: {
+                    enable: true,
+                    value_area:800
+                }
+            }
+        }
+    }
+
     return (
         <div className={styles.App}>
             <div className={styles.App_portfolio}>
+                <Particles className={styles.particles} params={particlesOpt}/>
                 <Header />
                 <AboutMe />
                 <MySkills />
