@@ -11,7 +11,7 @@ const AboutMe = () => {
             </div>
             <div className={styles.photoWrapper}>
                 <div className={styles.photo}>
-                    <div className={styles.image}/>
+                    <div className={styles.image} />
                 </div>
             </div>
         </div>

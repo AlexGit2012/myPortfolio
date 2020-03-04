@@ -73,10 +73,8 @@
 }
 
 .image {
-    height: 299px;
     width: 261px;
-/*    background-color: #d1ffd3;*/
-/*    background-image: url("./public/Photo/photo.png");*/
+    height: 299px;
     background: url("assets/Photo/photo.png");
     z-index: 2;
 }
@@ -123,7 +121,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid black;
     }
 
     .photoWrapper {
