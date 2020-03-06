@@ -70,6 +70,12 @@
     background: white;
     position: relative;
     z-index: 1;
+    transition: 200ms;
+}
+
+.photo:hover {
+    transform: scale(1.1,1.1);
+    transition: 500ms;
 }
 
 .image {

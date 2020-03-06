@@ -15,7 +15,7 @@ function App() {
     const particlesOpt = {
         particles: {
             number: {
-                value: 150,
+                value: 50,
                 density: {
                     enable: true,
                     value_area:800
@@ -27,7 +27,7 @@ function App() {
     return (
         <div className={styles.App}>
             <div className={styles.App_portfolio}>
-{/*                <Particles className={styles.particles} params={particlesOpt}/> */}
+                <Particles className={styles.particles} params={particlesOpt}/>
                 <Header />
                 <AboutMe />
                 <MySkills />
