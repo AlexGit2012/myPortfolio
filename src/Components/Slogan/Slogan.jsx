@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Slogan.module.css";
 import {Fade} from "react-reveal";
+import {HeaderOfBlock} from "../Other/HeaderOfBlock/HeaderOfBlock";
 
 const Slogan = () => {
     return <div className={styles.slogan}>
         <Fade>
-            <div className={styles.hireMeSlogan}>Рассматриваю варианты удаленной работы</div>
-            <button className={styles.hireButton}>Нанять меня</button>
+            <HeaderOfBlock headerText={"Рассматриваю варианты удаленной работы"}/>
+            <a className={styles.hireButton}>Нанять меня</a>
         </Fade>
     </div>
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 350px;
     background: #252525;
     position: relative;
 }
@@ -14,7 +14,7 @@
 
 .hireButton {
     width: 200px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,32 @@
     color: #848f98;
     outline: none;
     margin-top: 50px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+.hireButton:after {
+    content: "";
+    position: absolute;
+    width:50%;
+    height: 7px;
+    max-width: 190px;
+    background-color: #eaa261;
+    bottom: 0;
+    z-index: -1;
+    transition: 200ms;
+}
+
+.hireButton:hover:after {
+    height: 30px;
+    width: 60%;
+}
+
+.hireButton:hover {
+    color: #ffffff;
+    transition: 300ms;
 }
 
 @media screen and (max-width: 500px) {

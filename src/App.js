@@ -18,7 +18,7 @@ function App() {
                 value: 50,
                 density: {
                     enable: true,
-                    value_area:800
+                    value_area: 800
                 }
             }
         }
@@ -28,14 +28,14 @@ function App() {
         <div className={styles.App}>
             <div className={styles.App_portfolio}>
                 <Particles className={styles.particles} params={particlesOpt}/>
-                <Header />
-                <AboutMe />
-                <MySkills />
-                <MyWorks />
-                <Slogan />
+                <Header/>
+                <AboutMe/>
+                <MySkills/>
+                <MyWorks/>
+                <Slogan/>
                 {/*<Distance />  Удаленный вариант работы, , более подробно*/}
-                <Contacts />
-                <Footer />
+                <Contacts/>
+                <Footer/>
             </div>
         </div>
     );
