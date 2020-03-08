@@ -6,6 +6,11 @@
 
 .link {
     font-size: 18px;
+    color: #eaa261;
+}
+
+.link:hover {
+    cursor: default;
 }
 
 @media  screen and (max-width: 1000px) {

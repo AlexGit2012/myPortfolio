@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 
 export const Project = (props) => {
-    return <Fade right>
+    return <Fade>
         <div className={styles.myWorkElement}>
             <div className={styles.workImg}>
                 <button className={styles.myWorkButton}>Смотреть проект</button>

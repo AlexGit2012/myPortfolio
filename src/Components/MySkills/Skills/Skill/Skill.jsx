@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 
 export const Skill = (props) => {
-    return <Fade left>
+    return <Fade>
         <div className={styles.element}>
             <div className={styles.skillContainer}>
                 <div className={styles.skillImg}>

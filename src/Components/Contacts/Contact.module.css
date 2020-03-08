@@ -96,6 +96,10 @@
     .contactInputFields {
         width: 300px;
     }
+
+    .contacts {
+        padding-top: 50px;
+    }
 }
 
 

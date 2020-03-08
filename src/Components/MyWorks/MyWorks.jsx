@@ -4,7 +4,7 @@ import {HeaderOfBlock} from "../Other/HeaderOfBlock/HeaderOfBlock";
 import {Project} from "./Project/Project";
 
 const MyWorks = () => {
-    return <div className={styles.myWorks} >
+    return <div className={styles.myWorks} id={"myWorks"}>
         <HeaderOfBlock headerText={"Мои работы"} />
         <div className={styles.container}>
             <Project
