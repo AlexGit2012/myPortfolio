@@ -3,11 +3,10 @@ import styles from "./Skills.module.css";
 import {HeaderOfBlock} from "../../Other/HeaderOfBlock/HeaderOfBlock";
 import {Skill} from "./Skill/Skill";
 import reactIcon from "../../../assets/icons/icons8-react-native.svg";
-import reduxIcon from "../../../assets/icons/redux_4691205.png"
-import htmlIcon from "../../../assets/icons/iconfinder_10-html5_104494.ico"
+import reduxIcon from "../../../assets/icons/redux-seeklogo.com.svg"
+import htmlIcon from "../../../assets/icons/html5.svg"
 import cssIcon from "../../../assets/icons/css-3-logo.svg"
-import javascriptIcon from "../../../assets/icons/iconfinder_js_282802.ico"
-import Fade from 'react-reveal/Fade';
+import javascriptIcon from "../../../assets/icons/jsIcon.svg"
 
 
 

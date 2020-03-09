@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./NavMenu.module.css";
 import {Link, animateScroll as scroll} from "react-scroll"
 
-const Footer = () => {
+const NavMenu = () => {
     return (
         <div className={styles.nav}>
             <Link duration={"400ms"} smooth={true} className={styles.link} to="aboutMe">Главная</Link>
@@ -13,4 +13,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default NavMenu;

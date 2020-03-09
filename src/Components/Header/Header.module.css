@@ -1,23 +1,29 @@
 .header {
-    height: 10vh;
-    background: white;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     position: fixed;
-    width: 100%;
-    z-index: 100;
-    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    z-index: 50;
+    background-color: #eaa261;
+    opacity: 1;
 }
 
 .container {
-    width: 80%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width: 70%;
+    justify-content: center;
 }
 
-@media  screen and (max-width: 1000px) {
+.menuBtn:hover{
+
+}
+
+
+@media  screen and (max-width: 600px) {
     .container {
-        justify-content: center;
+        width: 95%;
     }
 }
