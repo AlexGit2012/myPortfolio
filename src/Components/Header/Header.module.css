@@ -1,14 +1,12 @@
 .header {
     display: flex;
     flex-direction: row;
-    position: fixed;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 60px;
     z-index: 50;
     background-color: #eaa261;
-    opacity: 1;
 }
 
 .container {
@@ -17,8 +15,17 @@
     justify-content: center;
 }
 
-.menuBtn:hover{
+.menuBtn {
+    position: fixed;
+    z-index: 100;
+}
 
+.menuBtn:hover .hiddenContainer{
+    display: flex;
+}
+
+.hiddenContainer {
+    display: none;
 }
 
 
