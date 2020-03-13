@@ -7,8 +7,8 @@ export const Project = (props) => {
     return <Fade>
         <div className={styles.myWorkElement}>
             <div className={styles.workImg}>
-                <button className={styles.myWorkButton}>Смотреть проект</button>
-                <button className={styles.myWorkButton}>Просмотр кода</button>
+                <a className={styles.myWorkButton} href={props.projectPath}>Смотреть проект</a>
+                <a className={styles.myWorkButton} href={props.codePath}>Просмотр кода</a>
             </div>
             <div className={styles.workDescription}>
                 <div className={styles.workDescriptionElement}>
